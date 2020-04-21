@@ -1,5 +1,8 @@
 <h1 align="center">🤖 ascii face</h1>
 <p align="center">Generate ASCII faces with colour</p>
+<p align="center">
+	<a href="https://www.npmjs.com/package/ascii-face"><img src="https://img.shields.io/npm/dw/ascii-face" alt="Downloads"></a>
+</p>
 
 ![Standard](https://raw.githubusercontent.com/o8e/ascii-face/master/assets/img/example-mono.png)
 
@@ -9,7 +12,7 @@
 
 A silly package I created whilst working on a side project. I needed faces for profile images, and thought why not have a unique set of text-based generated faces.
 
-#### There are 501,600 potential combinations
+> There are 501,600 potential combinations
 
 ### Usage
 
