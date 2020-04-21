@@ -1,7 +1,7 @@
 <h1 align="center">🤖 ascii face</h1>
 <p align="center">Generate ASCII faces with colour</p>
 <p align="center">
-	<a href="https://www.npmjs.com/package/ascii-face"><img src="https://img.shields.io/npm/dw/ascii-face" alt="Downloads"></a>
+	<a href="https://www.npmjs.com/package/ascii-face"><img src="https://badge.fury.io/js/ascii-face.svg" alt="Downloads"></a>
 </p>
 
 ![Standard](https://raw.githubusercontent.com/o8e/ascii-face/master/assets/img/example-mono.png)
