@@ -1,7 +1,7 @@
 import * as colors from './colors'
 import * as chars from './chars'
 
-export const generate = (html: boolean = false) => {
+export default (html: boolean = false) => {
   const pickOne = (arr: string[]) => arr[~~(Math.random() * arr.length)]
 
   const setColor = (char: string) => {

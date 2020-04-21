@@ -1,18 +1,36 @@
-<h1 align="center">:hotsprings: node-ts-boilerplate</h1>
-<p align="center">Node boilerplate with TypeScript</p>
-<p align="center">
-	<a href="https://kbrsh.github.io/license"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
-</p>
+<h1 align="center">🤖 ascii face</h1>
+<p align="center">Generate ASCII faces with colour</p>
+
+![Standard](https://github.com/o8e/ascii-face/raw/master/src/assets/img/example-mono.png)
+
+![Colour](https://github.com/o8e/ascii-face/raw/master/src/assets/img/example-color.png)
 
 ### Summary
 
-- :hammer: [ESLint](https://github.com/eslint/eslint) & [Prettier](https://github.com/prettier/prettier) ([Standard](https://github.com/standard/standard))
-- :zap: Development server with [Nodemon](https://github.com/remy/nodemon)
-- :rocket: [TypeScript](https://github.com/microsoft/TypeScript) compilation with import aliases
-- :wrench: Testing with [Jest](https://github.com/facebook/jest)
+A silly package I created whilst working on a side project. I needed faces for profile images, and thought why not have a unique set of text-based generated faces.
+
+#### There are `501,600` potential combinations
 
 ### Usage
 
-`git clone --depth 1 git@github.com:o8e/node-ts-boilerplate.git`
+For now it's a default export, so import it however you want.
 
-You could also clone and `rm -rf .git/`, or just fork it.
+```bash
+npm install ascii-face -s
+```
+
+Standard
+
+```js
+import facegen from 'ascii-face'
+const face = facegen()
+// ...
+```
+
+Colour
+
+```js
+import facegen from 'ascii-face'
+const face = facegen(true)
+// ...
+```

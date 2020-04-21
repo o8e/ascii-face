@@ -1,7 +1,7 @@
 {
-  "name": "node-ts-boilerplate",
+  "name": "ascii-face",
   "version": "1.0.0",
-  "description": ":hotsprings: Node boilerplate with TypeScript compliation",
+  "description": "Generate ASCII faces with colour",
   "main": "build/index.js",
   "dependencies": {},
   "devDependencies": {
@@ -31,19 +31,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/o8e/node-ts-boilerplate.git"
+    "url": "git+https://github.com/o8e/ascii-face.git"
   },
   "keywords": [
-    "nodejs",
-    "typescript",
-    "boilerplate",
-    "eslint",
-    "prettier"
+    "ascii",
+    "ascii",
+    "art",
+    "procgen",
+    "procedural",
+    "html"
   ],
   "author": "Ollie Tribe <tribe@myself.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/o8e/node-ts-boilerplate/issues"
+    "url": "https://github.com/o8e/ascii-face/issues"
   },
-  "homepage": "https://github.com/o8e/node-ts-boilerplate#readme"
+  "homepage": "https://github.com/o8e/ascii-face#readme"
 }
