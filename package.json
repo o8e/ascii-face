@@ -1,6 +1,6 @@
 {
   "name": "ascii-face",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generate ASCII faces with colour",
   "main": "build/index.js",
   "dependencies": {},
